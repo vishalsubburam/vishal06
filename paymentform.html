@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<title>payment Form</title>
+</head>
+<body bgcolor="grey">
+	<h1 align="center">Checkout</h1>
+	<form method="post" enctype="multipart/form-data">
+		<table border="0" align="center" >
+			<tr>
+				<td colspan="2"><b>Name</b>
+					
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<input type="text" name="Firstname" placeholder="First name*" required="">
+				</td>
+				<td>
+					<input type="text" name="lastname" placeholder="Last name*" required="">
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><b>Email</b>
+					
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="email" name="Email" placeholder="Email*" required="">
+				</td>
+				
+			</tr>
+
+			<tr>
+				<td colspan="2"><b>Payment Method</b>
+					
+				</td>
+				
+			</tr>
+			<tr>
+				<td>
+					<input type="radio" name="Credit card">Credit card<br>
+					<input type="radio" name="UPI">UPI
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><b>Card Number</b>
+					
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="text" name="cardnumber" required="">
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2"><b>Name on Card</b>
+					
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="text" name="nameoncard" required="">
+				</td>
+				
+			</tr><br>
+			<tr>
+				<td>
+					<input type="button" name="Paynow" value="pay">
+				</td>
+			</tr>
+
+
+		</table>
+
+		
+		
+	</form>
+
+</body>
+</html>
