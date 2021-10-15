@@ -1,134 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@300&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
+body{
+    margin: 0;
+    padding: 0;
+    width: 1250px;
 
-
+}
 .navbar{
-width: 1250px;
-
-}
-.clearspace{
-    clear: left;
+    width: 1200px;
 }
 .navbar ul{
-    
-    margin: 0% 25%;
-    
+    margin: 0% 12%;
 }
 .navbar ul li{
     list-style-type: none;
     float: left;
-    
     padding: 25px 25px;
+    font-style: 'Poppins' sans-serif;
+    font-variant: small-caps;
+    margin-left: 5%;
+    font-size: 25px;
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #000;
-    text-transform: uppercase;
-    font-family: 'PT Sans', sans-serif;
-}
-.navbar ul li a:hover{
-    background-color: orangered;
-    width: 100px;
-    height: 120px;
-}
-.logo{
+    color: black;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
 }
-.logo::first-letter{
-    color: teal;
+.navbar ul li:hover{
+    background-color: rgb(160, 241, 78);
 }
-.banner{
-    padding: 25px 25px;
+.clearfix{
+    clear: both;
+}
+.logo h1{
+    margin-left: 50%;
+    font-family: 'Poppins';
+    font-size: 40px;
+}
+.logo h1::first-letter{
+    color: rgb(160, 241, 78);
+    font-size: 50px;
+}
+.first{
+    background-color: rgb(160, 241, 78);
 }
 .banner img{
-    width: 100%;
+    width: 1250px;
     height: 500px;
+    margin-left: 50px;
+}
+.container1{
+    width: 100%;
+    margin-left: 4%;
+}
+.box1{
+    width: 28%;
+    height: 396px;
+    background-color: rgb(160, 241, 78);
+
+
+}
+.box1 h2{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(160, 241, 78);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
     
 }
-.slider ul{
-    margin: 0% 40%;
+.box1 img{
+    
+    width: 350px;
+    background-color: rgb(160, 241, 78);
 }
-.slider ul li{
-    float: left;
-    padding: 25px 25px;
-    list-style-type: square;
+.box1 p{
+    background-color: gray;
+    margin-top: -6px;
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+    border-bottom-right-radius: 70px;
+    
 }
-.container{
+.box2{
+    width: 28%;
+    height: 396px;
+    background-color: rgb(160, 241, 78);
+    margin-left: 36%;
+    margin-top: -396px;
+
+
+}
+.box2 h2{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(160, 241, 78);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.box2 img{
+    
+    width: 350px;
+    background-color: rgb(160, 241, 78);
+}
+.box2 p{
+    background-color: gray;
+    margin-top: -6px;
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+    border-bottom-right-radius: 70px;
+}
+.box3{
+    width: 28%;
+    height: 396px;
+    background-color: rgb(160, 241, 78);
+    margin-left: 72%;
+    margin-top: -396px;
+
+
+}
+.box3 h2{
+    width: 350px;
+    height: 50px;
+    background-color: rgb(160, 241, 78);
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+.box3 img{
+    
+    width: 350px;
+    background-color: rgb(160, 241, 78);
+}
+.box3 p{
+    background-color: gray;
+    margin-top: -6px;
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+    border-bottom-right-radius: 70px;
+}
+.container2{
     width: 100%;
+    margin-left: 4%;
 }
-.section1{
-    width: 30%;
-    height: 500px;
-    margin-left: 2%;
+.box_1{
+    width: 33.333333%;
+    height: 253px;
+}
+.box_1,.box_2 h1{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    
+}
+.box_1 ul li{
+    padding: 4px;
+    list-style-type:">";
+    padding-left: 1px;
+}
+.box_2{
+    width: 33.3333333%;
+    margin-left: 36.2%;
+    height: 271px;
+    margin-top: -271px;
+
+}
+.box_2 h3{
+    color: rgb(168, 164, 164);
+    
+}
+.box_2 p{
+    text-align: left;
    
-}
-.section1 h3{
-    background-color: teal;
-    text-align: center;
-    height: 50px;
-    padding: 15px;
-    margin: 0px;
-}
-.section1 img{
-    width: 400px;
     
 }
-.section1 p{
+.box_2 button{
+    background-color: gray;
+    color: white;
+}
+.box_3{
+    width: 33.333333%;
+    margin-left: 75%;
+    margin-top: -297px;
+}
+.box_3 h3{
+    color: rgb(168, 164, 164);
+}
+.box_3 button{
+    background-color: gray;
+    color: white;
+}
+.container3{
+    width: 100%;
+    margin-left: 4%;
+}
+.box-1{
+    width: 45%;
+}
+.box-1 h1{
+    width: 100px;
+    height: 100px;
+    padding-left: 25px;
+    padding-top: 10px;
+    font-size: 50px;
+    background-color: rgb(160, 241, 78);
+}
+.head{
+    width: 40%;
+    height: 100px;
+    margin-left: 8%;
+    margin-top: -142px;
+    padding-left: 5%;
+   background-color: gray;
+}
+.head h2{
+    margin-left: -25px;
+}
+.head p{
+    margin-top: -25px;
+   margin-left: -25px;
+}
+.container4{
+    width: 100%;
+    margin-left: 58%;
+    margin-top: -142px;
+}
+.box-2 h1{
+    
+    font-size: 70px;
+    padding: 20px;
+}
+footer h2{
+    margin-left: 10%;
+    color: rgb(168, 164, 164);
     text-align: center;
-    margin: 0;
-    background-color: rgb(100, 70, 98);
-    height: 200px;
-    padding: 0;
 }
-.section2{
-    width: 30%;
-    height: 500px;
-    margin-left: 37%;
-    margin-top: -499px;
-}
-.section2 h3{
-    background-color: teal;
-    text-align: center;
-    height: 50px;
-    padding: 15px;
-    margin: 0px;
-}
-.section2 img{
-    width: 400px;
-    height: 230px;
-}
-.section2 p{
-    text-align: center;
-    margin: 0;
-    background-color: rgb(100, 70, 98);
-    height: 200px;
-    padding: 0;
-}
-.section3{
-    width: 30%;
-    height: 500px;
-    margin-left: 70%;
-    margin-top: -499px;
-}
-.section3 h3{
-    background-color: teal;
-    text-align: center;
-    height: 50px;
-    padding: 15px;
-    margin: 0px;
-}
-.section3 img{
-    width: 400px;
-    height: 230px;
-}
-.section3 p{
-    text-align: center;
-    margin: 0;
-    background-color: rgb(100, 70, 98);
-    height: 200px;
-    padding: 0;
-}
+
+    
